@@ -1,0 +1,20 @@
+Installing
+==========
+
+Before running, you're going to have to install the Stanford C++ libraries and Eigen, which is a linear algebra / matrix library. You could do this manually by making a "lib" folder and downloading the necessary libraries online.
+
+Alternatively, I've gone ahead an shared a link to the complete lib folder with all necessary dependencies here:
+
+https://www.dropbox.com/sh/hvzuqs50w4kbzux/AADAaDiI3pGDyBAvGjuB4zRQa?dl=0
+
+After downloading, you can just drag the folder into final-project-submit/ (the new paths should be final-project-submit/lib/...). 
+
+Platforms
+=========
+
+Currently, real-time user control only works on Windows. Hopefully the program should work on Linux and Mac without this feature, but it's as-of-yet untested.
+
+Compiling
+=========
+
+Make sure you compile in release mode, otherwise learning will be very slow.
